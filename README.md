@@ -30,7 +30,7 @@ A comment should contain the following data:
 
 There are three large requirements:
 1. **Write your service in Java 11 (or higher) with Spring Boot**. We have predefined the libraries we think you may want to use, but you are free to add and/or change them. (note for example that we haven't provided any libraries for working with databases — that is on you!)
-2. **Connect to our blog API**. You will find the application in the `blog-api` repository [java-entry-test-blog-api](https://github.com/QuantiCZ/blog-api-java-entry-test). The API is already implemented, you only need to boot it up locally. To learn how to do that, take a look at [java-entry-test-blog-api](https://github.com/QuantiCZ/blog-api-java-entry-test). Use the API to get information about the blog posts.
+2. **Connect to our blog API**. You will find the application in the `blog-api` repository [java-entry-test-blog-api](https://github.com/QuantiCZ/java-entry-test-blog-api). The API is already implemented, you only need to boot it up locally. To learn how to do that, take a look at [java-entry-test-blog-api](https://github.com/QuantiCZ/java-entry-test-blog-api). Use the API to get information about the blog posts.
 3. **Use an external database in a Docker container**. You should also use ORM in your application. You may use any database you like — relational (e.g., PostgreSQL, MariaDB), non-relational (e.g., MongoDB), etc.
 
 Other than that, you are not restricted in any way! You may use any libraries you like, and change or rewrite the template we have predefined for you in any way you see fit.
